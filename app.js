@@ -14,7 +14,7 @@ app.get('/Laptop1', (req, res) => {
 app.get('/AC1', (req, res) => {
   res.send('A hidden Intelligent central digital dynamic LED display that indicates the operation status vividly. This smart feature makes use of technology smart and user friendly.\nEnhance the cooling of your AC like never before with this smart Multi Fold Evaporator that pushes the heat off indoors. It also makes the unit more compact in size.')
 })
-app.get('/AC1', (req, res) => {
+app.get('/AC2', (req, res) => {
   res.send('Efficient Cooling even at extreme Temperature of 54*C.\nUses Ocean Transparent Coating on the Outdoor and Indoor of the AC making it Completely Rust Free. And the Grill used in the Outdoor is High Quality Plastic which helps in Protecting Against any Kind of Rusting.\nUses Micro Dust filter whose grid Gap measured is of 1.2mm, while the grid gap used by other conventional AC'+'s is of 2mm. This Helps in Protecting the AC from Smallest to the Smallest Dust Particle.')
 })
 app.get('/Fridge1', (req, res) => {
