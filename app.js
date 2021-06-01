@@ -32,6 +32,9 @@ app.get('/Chair2', (req, res) => {
 app.get('/TV2', (req, res) => {
   res.send('Powerful X1 processor uses advanced algorithms to cut noise and boost detail. With an even clearer 4K signal, everything you watch is closer to 4K resolution, full of life-like colour and contrast.\nFind all the entertainment you can dream of, as fast as you can talk. With advanced voice control, this Android smart TV lets you enjoy movies and shows from apps or broadcast in an instant.\nOver 5,000 apps, more than any other smart TV Sony'+'s Smart Android TV has an unbeatable number of apps. Choose the ones that make your life more fun and entertaining.\nSee glorious 4K pictures, rich with real-world detail and texture, exclusively powered by our 4K Processor X1™. Images filmed in 2K and even Full HD are upscaled to close-to-4K resolution by 4K X-Reality™ PRO using a unique 4K database.')
 })
+app.get('/TV1', (req, res) => {
+  res.send('This unique and cute vintage TV set is an adorable decorative accent for any tabletop. Use it to decorify your TV cabinet, or as a piggy bank on your shoe rack at home, or as a paperweight or showpiece on your workstation in office.')
+})
 app.listen(port, () => {
   console.log(`Example app listening at :${port}`)
 })
