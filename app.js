@@ -35,6 +35,18 @@ app.get('/TV2', (req, res) => {
 app.get('/TV1', (req, res) => {
   res.send('This unique and cute vintage TV set is an adorable decorative accent for any tabletop. Use it to decorify your TV cabinet, or as a piggy bank on your shoe rack at home, or as a paperweight or showpiece on your workstation in office.')
 })
+app.get('/Mobile1', (req, res) => {
+  res.send('iPhone SE packs our powerful A13 Bionic chip into our most popular size at our most affordable price. It’s just what you’ve been waiting for.\nDurable glass and aluminium design.\nBrilliant 11.94 cm(4.7-inch) Retina HD display')
+})
+app.get('/Sofa1', (req, res) => {
+  res.send('No one does flexible furniture better than us. Our modular sofas, in multiple styles, colours, and materials are proof of this. Add or subtract footstools, backrests, armrests, and design the sofa you’ve always dreamed of. The GRÖNLID lets you add sofa modules to keep up with your growing needs while the comfortable LANDSKRONA and SÖDERHAMN allow you to create the perfect sofa set for yourself by adding chaise lounges and storage modules. We’ve even got something for smaller spaces - our VALLENTUNA series goes form sofa unit to a single bed if you need space for your guest to sleep.')
+})
+app.get('/Laptop2', (req, res) => {
+  res.send('Elevate your esports experience and push past noobs with a laptop that gives you the ability to climb atop the leaderboard. This Gaming 3 (15) Laptop is your gateway to competitive gaming with AMD Ryzen™ processors, GeForce® graphics, DDR4 memory, and SSD storage options. And with an iridescent Chameleon Blue or slick Onyx Black that refracts light and up to 120Hz FHD display, it is visually pleasing turned on or off. AMD® Ryzen™ 7 4800H Processor (8 Cores / 16 Threads, 2.90 GHz, up to 4.20 GHz with Max Boost, 4 MB Cache L2 / 8 MB Cache L3). Windows 10 Home 64. 39.62cms (15.6) FHD (1920x1080) IPS 250nits Anti-glare, 60Hz. Run your favorite AAA titles smoothly, the way they were meant to be enjoyed with AMD Ryzen™ 4000 H-Series processors, NVIDIA® GeForce® GTX graphics, DDR4 memory, and M.2 NVMe PCIe SSD storage options. These powerful features ensure that you can run games on high settings so that you will always have the advantage of seeing every detail in your gaming environment.')
+})
+app.get('/Table1', (req, res) => {
+  res.send('Classic details and understated style come together in this versatile and functional coffee table. The table top is made of engineered wood and rests on a solid rubberwood frame. The table’s two-tiered construction maximizes space while providing additional stability. Its lower shelf can be used to store magazines and books, keeping the table top free. Two pull-out drawers provide additional storage.')
+})
 app.listen(port, () => {
   console.log(`Example app listening at :${port}`)
 })
